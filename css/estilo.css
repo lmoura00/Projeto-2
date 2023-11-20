@@ -4,25 +4,110 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #nav{
-    display: flex;
-    width: 100%;
-    background-color: green;
-    justify-content: space-evenly;
-}
-#navbar{
-    background-color: yellow;
-    
 }
 #nav-inner{
-    background-color: blue;
+    border-bottom-width:10px;
     display: flex;
+    width: 100%;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 5px 25px 20px;
+    border-bottom: 1px black solid;
 }
 #nav-links{
-    background-color: brown;
     display: flex;
+    gap: 15px;
+    margin-right: 150px;
     text-decoration: none;
 }
 li{
     list-style-type: none;
+}
+a:active{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 1000px;
+    height: 700px;
+    padding: 20px 5px 5px 20px;
+}
+#search-bar{
+    /*background-color: white;*/
+    width: auto;
+    height:100px;
+    border-radius: 10px;
+    border: 1px gray solid;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+#categories{
+    /*background-color: white;*/
+    width: auto;
+    height:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#tags{
+    /*background-color: white;*/
+    width: auto;
+    height:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#tags-container{
+
+}
+#posts-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    width: 350px;
+    height: 550px;
+    background-color: pink;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    border: 1px gray solid;
+    border-radius: 10px;
+    flex-direction: column;
+}
+#footer{
+
+}
+img{
+    max-width: 350px;
+    width: 340px;
+    margin-bottom: 15px;
 }
